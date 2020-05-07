@@ -1,3 +1,8 @@
+article img {
+    width: 75%;
+    height: auto;
+}
+
 body {
     font-family: 'Gentium Book Basic', serif;
     text-align: center;
@@ -11,10 +16,6 @@ footer {
 
 h1, h2 {
     font-family: 'Ultra', serif;
-}
-
-h1 {
-    font-size: xx-large;
 }
 
 header {

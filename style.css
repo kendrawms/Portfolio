@@ -37,9 +37,6 @@ li {
     list-style-type: none;
 }
 
-nav {
-    float: right;
-}
 nav a {
     color: white;
     font-size: larger;
@@ -75,7 +72,6 @@ a:hover {
     font-family: 'Ultra', serif;
     color: white;
     font-size: xxx-large;
-    float: left;
 }
 
 .pic {

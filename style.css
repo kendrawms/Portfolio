@@ -7,10 +7,12 @@ body {
     font-family: 'Gentium Book Basic', serif;
     text-align: center;
     font-size: 2em;
+    color: white;
+    background-image: url("images/Portfolio-background.png");
    }
 
 footer {
-    background-color: blue;
+    background-color: rgb(43, 37, 69);
     color: white;
 }
 
@@ -21,8 +23,12 @@ h1, h2 {
 header {
     padding-top: 48px;
     padding-bottom: 48px;
-    background-color: red;
     color: white;
+}
+
+header img {
+    width: 50%;
+    height: auto;
 }
 
 img {
@@ -36,45 +42,46 @@ li {
     list-style-type: none;
 }
 
-nav a {
-    color: white;
+nav {
+    color: rgb(196, 27, 139);
     font-size: larger;
     font-weight: bold;
     text-decoration: none;
+    background-color: rgb(43,37,69);
+}
+
+nav a {
+    border-left: thick ridge rgb(122, 194, 122);
+    border-right: thick ridge  rgb(122, 194, 122);
 }
 
 nav a:hover {
-    color: blue;
+    color: rgb(122, 194, 122);
     text-decoration: underline;
+    text-transform: uppercase;
 }
 
 a {
-    color: white;
-      text-decoration: none;
+    color: rgb(196, 27, 139);
+      text-decoration: underline;
 }
 
 a:hover {
-    color: blue;
+    color: rgb(143, 38, 128);
     text-decoration: underline;
 }
 .about {
-    background-color: white;
-    color: black;
+    background-color: rgba(196, 27, 139, 0.8);
+    color: white;
 }
 
 .contact {
-    background-color: red;
+    background-color: rgba(122, 194, 122, 0.8);
     color: white;
-}
-
-.header {
-    font-family: 'Ultra', serif;
-    color: white;
-    font-size: xxx-large;
 }
 
 .pic {
     padding: 48px;
-    background-color: blue;
+    background-color: rgba(143, 38, 128, 0.8);
     color: white;
 }
